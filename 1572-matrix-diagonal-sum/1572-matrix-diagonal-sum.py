@@ -11,7 +11,7 @@ class Solution:
             for j in range (0, len(mat)):
                 
                 if i == j:
-                    print(mat[i][j])
+                    
                     summ = summ + mat[i][j]
         
         for i in range(len(mat)):
@@ -21,12 +21,12 @@ class Solution:
             for j in range (0, len(mat)):
                 
                 if i == j:
-                    print(mat[i][j])
+                    
                     summ = summ + mat[i][j]
         
-        print(len(mat))
+        # print(len(mat))
         if len(mat) % 2 != 0:
-            print("Hello")
+            
             x = int ((len(mat) - 1) / 2)   
             summ = summ - mat[x][x]
         return summ
