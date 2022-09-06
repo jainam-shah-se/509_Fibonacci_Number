@@ -1,6 +1,8 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         
+        return Counter(s) == Counter(t)
+        
         ch_dict = {}
         ch_dict2 = {}
         
